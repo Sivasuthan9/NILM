@@ -1,0 +1,23 @@
+{
+    "model": {
+        "input_dim": 1,
+        "output_dim": 1,
+        "d_model": 128,
+        "nhead": 8,
+        "num_encoder_layers": 4,
+        "dim_feedforward": 512,
+        "dropout": 0.1,
+        "seq_length": 299
+    },
+    "training": {
+        "appliance_name": "dishwasher",
+        "batch_size": 32,
+        "learning_rate": 0.001,
+        "epochs": 50,
+        "patience": 10,
+        "stride": 20
+    },
+    "data_dir": "../data/ukdale",
+    "results_dir": "../results",
+    "models_dir": "../models"
+}
